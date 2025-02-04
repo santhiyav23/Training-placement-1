@@ -1,5 +1,4 @@
 class Car:
-    # Class variable
     wheels = 4
 
     def __init__(self, make, model):
@@ -9,6 +8,6 @@ class Car:
     def display_info(self):
         print(f"This car is a {self.make} {self.model} with {Car.wheels} wheels.")
 
-# Test
+
 car1 = Car("Toyota", "Corolla")
 car1.display_info()
